@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=IBM+Plex+Sans:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+ *{
+   padding: 0;
+   margin: 0;
+   /* background-color: rgb(213, 209, 209); */
+   background-color:   #E8F5E9;
+
+   /* box-sizing: border-box; */
+}
+
+ body{
+ background-color: rgb(244, 237, 237);
+
+ }
+.sidebar{
+   background-color: rgb(223, 218, 218); 
+   
+  height: 100vh;
+}
+.sidebar nav{
+padding: 45px;
+}
+.sidebar nav li{
+   list-style: none;
+   font-size: 30px;
+   padding: 33px 0;
+   height: 64px;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+   color: black;
+   
+}
+
+.main{
+   background-color: #E8F5E9; 
+   width: 90vw;
+}
+.container{
+   display: flex;
+
+ }
+ .infoContainer{
+ background-color: rgb(255, 0, 251);  
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+ .devInfo{
+   display: flex;
+   justify-content: center;
+ flex-direction: column;
+}
+
+.hello{
+   font-size: 65px;
+   font-family: 'Source Code Pro', monospace; 
+}
+
+.name{
+   font-size: 50px;
+   font-weight: bold;
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+
+ .about{
+   font-size: 50px;
+   
+}
+ .moreabout{
+   font-size: 22px;
+   margin-top: 23px;
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ span{
+  
+ background: linear-gradient(to bottom, #FF5733, #FFC300);
+ }
+
+ .btn{
+  margin-top: 34px;
+
+ }
+
+ .btn {
+padding: 9px 14px;
+border-radius: 22px;
+background-color: dodgerblue;
+font-size: 21px;
+font-weight: bold;
+margin: 0 3px;
+cursor: pointer;
+}
+ .btn-sm{
+   font-size: 14px;
+   padding: 10px 19px;
+   margin: 12px 0;
+
+ }
+  .btn:hover{
+ background-color: white;
+ color: dodgerblue;
+}
+
+ .devPic img{
+   height: 60vh;
+ }
+
+ .contactform{
+ padding: 0 34px;
+ padding-top: 144px;
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .contactform h1{
+  
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   padding: 12 0px;
+ }
+ .contactform form div{
+   padding: 10px 0;
+   display: flex;
+   flex-direction: column;
+ }
+ .contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0 ;
+   padding: 3px;
+ }
+
+ #emailHelp{
+ font-size: 11px;
+ color: midnightblue;
+ margin: 0 0 5px;
+ padding: 3px 0 0;
+ }
+ #form-check{
+ flex-direction: row;
+ }
+ #form-check input{
+ width: 24px;
+ margin: 3px 0;
+ }
+ .blogItem{
+ margin: 20px;
+ font-family: 'Fira Sans', sans-serif;
+ }
+ .blogContainerh1{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   margin: 23px;
+ }
+ .blogItem p{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif; 
+ }
+
+ h1{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+ }
+ p{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+ }
+ .intro h2{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   margin: 0 12px;
+ }
+ .intro p{
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   margin: 0 12px;
+ }
+
+ .skillcontainer{
+ padding: 12px;
+ }
+
+ .skillItem{
+   display: flex;
+   align-content: center;
+   font-family: 'Basic', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 900;
+ }
+ .skill{
+   width: 190px;
+   height: 6px;
+   background-color: red;
+   border: 2px solid black;
+ }
+ .hundered{
+   width: 265px;
+   background-color: blueviolet;
+ }
+ .fifty{
+   width: 125px;
+   background-color: aqua;
+ }
+ .t5{
+   width: 170px;
+   background-color: pink;
+ }
+
+ .body{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+ }
+ .max-width{
+  max-width: 1300px;
+  padding: 0 45px;
+  margin: auto;
+ }
+ .max-width h1{
+  text-align: center;
+  position: relative;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+ }
+ .max-width h1::after{
+  content: '';
+  position: absolute;
+  width: 280px;
+  height: 10px;
+  background: #dc143c;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%); 
+ border-radius: 20px; 
+ } 
+ .content{
+ display: flex;
+ align-items: space-around;
+ }
+ .card{
+  padding: 5px 25px;
+  width: calc(26%-20px);
+  border-radius: 6px;
+  border: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ } 
+ .card:hover{
+  background-color: #dc143c;
+ }
+ .box{
+  transition: all 0.3s ease;
+ }
+ .card:hover .box{
+  transform: scale(1.05);
+ }
+ .box i{
+  font-size: 60px;
+  color: #dc143c;
+  transition: color 0.3s ease;
+ }
+ .card:hover .box i{
+  color: #fff;
+ }
+ .box h3{
+  font-size: 25px;
+  padding: 10px 0 7px;
+ }
+ @media screen and (max-width: 1190px) {
+  .max-width{
+    padding: 0 25px;
+  }
+  .card{
+    width: calc(50% -10px);
+    margin-bottom: 20px;
+  }
+ }
